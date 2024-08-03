@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: Roboto, sans-serif;
@@ -13,14 +12,22 @@ body {
 .header,
 .footer {
   display: flex;
-  flex: 0 0 75px;
+  height: 80px;
   color: #F9FAF8;
 }
 
 .header {
+  height: 80px;
+  color: #F9FAF8;
   padding: 0 15%;
+  display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-left {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 ul {
@@ -36,6 +43,10 @@ a {
 }
 
 .footer {
+  height: 70px;
+  color: #F9FAF8;
+  padding: 0 15%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -60,20 +71,20 @@ a {
 }
 
 .hero {
-  flex: 3;
+  height: 600px;
 }
 
 .info {
-  flex: 3;
+  height: 600px;
 }
 
 .quote {
-  flex: 3;
+  height: 500px;
   color: #1F2937;
   background-color: #E5E7EB;
   font-size: 36px;
 }
 
 .signup {
-  flex: 2;
+  height: 400px;
 }
