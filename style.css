@@ -7,12 +7,14 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: Roboto, sans-serif;
 }
 
 .header,
 .footer {
   display: flex;
   flex: 0 0 75px;
+  color: #F9FAF8;
 }
 
 .header {
@@ -28,6 +30,11 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
+
 .footer {
   justify-content: center;
   align-items: center;
@@ -37,21 +44,33 @@ ul {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+.hero,
+.info,
+.quote
+.signup {
   padding: 0 15%;
 }
 
-.section-one {
+.header,
+.hero,
+.footer {
+  background-color: #1F2937;
+}
+
+.hero {
   flex: 3;
 }
 
-.section-two {
+.info {
   flex: 3;
 }
 
-.section-three {
+.quote {
   flex: 3;
 }
 
-.section-four {
+.signup {
   flex: 2;
 }
