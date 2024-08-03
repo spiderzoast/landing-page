@@ -71,20 +71,20 @@ a {
 }
 
 .hero {
-  height: 600px;
+  height: 550px;
 }
 
 .info {
-  height: 600px;
+  height: 550px;
 }
 
 .quote {
-  height: 500px;
+  height: 450px;
   color: #1F2937;
   background-color: #E5E7EB;
   font-size: 36px;
 }
 
 .signup {
-  height: 400px;
+  height: 350px;
 }
