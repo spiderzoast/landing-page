@@ -39,7 +39,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #F9FAF8;
+  color: #E5E7EB;
 }
 
 .footer {
@@ -72,6 +72,32 @@ a {
 
 .hero {
   height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+} 
+
+.hero-text {
+  box-sizing: border-box;
+  width: 50%;
+  height: 550px;
+  padding: 50px 0;
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-logo {
+  box-sizing: border-box;
+  width: 50%;
+  height: 550px;
+  padding: 50px 0;
 }
 
 .info {
