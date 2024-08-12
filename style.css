@@ -16,6 +16,27 @@ body {
   color: #F9FAF8;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hero,
+.info,
+.quote,
+.signup {
+  padding: 0 15%;
+}
+
+.header,
+.hero,
+.footer {
+  background-color: #1F2937;
+}
+
+/* Header section */
+
 .header {
   height: 80px;
   color: #F9FAF8;
@@ -42,33 +63,7 @@ a {
   color: #E5E7EB;
 }
 
-.footer {
-  height: 70px;
-  color: #F9FAF8;
-  padding: 0 15%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.hero,
-.info,
-.quote,
-.signup {
-  padding: 0 15%;
-}
-
-.header,
-.hero,
-.footer {
-  background-color: #1F2937;
-}
+/* Hero section */
 
 .hero {
   height: 500px;
@@ -129,6 +124,8 @@ a {
   border-radius: 12px;
 }
 
+/* Info section */
+
 .info {
   box-sizing: border-box;
   height: 500px;
@@ -166,6 +163,8 @@ a {
   margin-bottom: 8px;
 }
 
+/* Quote section */
+
 .quote {
   height: 450px;
   color: #1F2937;
@@ -195,6 +194,19 @@ a {
   align-self: flex-end;
 }
 
+/* Signup section */
+
 .signup {
   height: 350px;
+}
+
+/* Footer section */
+
+.footer {
+  height: 70px;
+  color: #F9FAF8;
+  padding: 0 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
